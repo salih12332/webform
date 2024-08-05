@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+	
+	
+
+    <record id="webf_model_action" model="ir.actions.act_window">
+    <field name="name">web</field>
+    <field name="res_model">custom.web.form.booking</field>
+    <field name="view_mode">tree,form</field>
+	
+    </record>
+	
+	<menuitem id="webf_root" name="register"/>
+    <menuitem id="webf_menu" name="register" parent="webf_root" action="webf_model_action"/>
+	
+	
+	
+	
+	</odoo>
+	
